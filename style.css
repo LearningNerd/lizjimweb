@@ -1,0 +1,104 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* background: #eaf5ec; */
+  color: #444;
+  margin: 2em auto;
+  width: 45em;
+}
+
+h1 {
+  font-weight: normal;
+  /* color: #eeb4a2;*/
+  font-size: 5em;
+  font-family: 'Gochi Hand', cursive; 
+  text-align: center;
+  margin-bottom:0;
+}
+
+.tagline {
+  font-family: 'Gochi Hand', cursive; 
+  text-align: center;  
+  font-size: 1.5em;
+  font-style: italic;
+  line-height:10px;
+  margin-top: 0.5em;
+  margin-bottom: 3em;
+}
+
+.intro {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  /*max-width: 600px;*/
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
